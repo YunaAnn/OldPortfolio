@@ -1,0 +1,148 @@
+
+/****MENUS - language(.language-menu) and social (.menu)******/
+.menu, .language-menu  
+{
+  font-size: 100%;
+  color: #777;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: none;
+  margin: .25em 0 .25em 0 ;
+  text-transform: uppercase;
+}
+.menu a, .language-menu a  
+{
+  color: #777;
+  text-decoration: none;
+}
+.menu a:hover, .language-menu a:hover  
+{
+  color: #3996b3;
+  text-decoration: underline;
+  text-decoration-style:dotted;
+  font-weight: bold;
+}
+.menu:hover, .language-menu:hover 
+{
+  pointer-events: all;
+}
+.menu:hover .spacer:before, .language-menu:hover .spacer:before 
+{
+  width: 100%;
+  transition-delay: 0s;
+}
+.menu .label, .language-menu .label  
+{
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: all;
+  letter-spacing: 3px;
+  color: #3996b3;
+  font-weight: bold;
+}
+.menu .label:hover, .language-menu .label:hover
+{
+  text-decoration: underline;
+  text-decoration-style:dotted;
+}
+.menu .spacer, .language-menu .spacer
+ {
+  display: inline-block;
+  width: 3em;
+  margin: 0 .5em 0 .5em;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+.menu .spacer:before, .language-menu .spacer:before  
+{
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.7s;
+}
+.menu .item, .language-menu .item  
+{
+  position: relative;
+  display: inline-block;
+  margin: 1em 2em 0 0;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+.menu span, .language-menu span
+{
+  transition: color 0.5s ease;
+}
+.item:hover span, .language-menu .item:hover span  
+{
+  color: #457b94;
+}
+.menu:hover .item, .language-menu:hover .item  
+{
+  opacity: 1;
+}
+.language-menu:hover .item 
+{
+
+  top: 0px;
+}
+.menu .item:nth-child(1), .language-menu .item:nth-child(1) 
+{
+  transition-delay: 0.45s;
+}
+.menu .item:nth-child(2), .language-menu .item:nth-child(2) 
+{
+  transition-delay: 0.4s;
+}
+.menu .item:nth-child(3), .language-menu .item:nth-child(3) 
+{
+  transition-delay: 0.35s;
+}
+.menu .item:nth-child(4), .language-menu .item:nth-child(4)  
+{
+  transition-delay: 0.3s;
+}
+.menu .item:nth-child(5) 
+{
+  transition-delay: 0.25s;
+}
+.menu .item:nth-child(6)
+ {
+  transition-delay: 0.2s;
+}
+.menu .item:nth-child(7) 
+{
+  transition-delay: 0.15s;
+}
+.menu:hover .item:nth-child(1), .language-menu:hover .item:nth-child(1) 
+{
+  transition-delay: 0.25s;
+}
+.menu:hover .item:nth-child(2), .language-menu:hover .item:nth-child(2)  
+{
+  transition-delay: 0.3s;
+}
+.menu:hover .item:nth-child(3), .language-menu:hover .item:nth-child(3)  
+{
+  transition-delay: 0.35s;
+}
+.menu:hover .item:nth-child(4), .language-menu:hover .item:nth-child(4) 
+{
+  transition-delay: 0.4s;
+}
+.menu:hover .item:nth-child(5) 
+{
+  transition-delay: 0.45s;
+}
+.menu:hover .item:nth-child(6)
+ {
+  transition-delay: 0.5s;
+}
+.menu:hover .item:nth-child(7) 
+{
+  transition-delay: 0.55s;
+}
