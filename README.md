@@ -1,12 +1,2 @@
-# yunaann.github.io
-
-My portfolio.
-
-- CSS3
-- HTML5
-- JavaScript
-- Bootstrap 4.0
-- Font Awesome 5.10.2
-
-To do:
-- add Polish language
+# YunaAnnPortfolio
+My portfolio. CSS3, Javascript, HTML5, React, Bootstrap.
